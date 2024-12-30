@@ -4,7 +4,7 @@ hf=float(input("输入父亲身高:"))
 hm=float(input("输入母亲身高:"))
 if sex==1:
     hk=59.699+hf*0.419+hm*0.265
-else :
+else:
     hk=43.089+hf*0.306+hm*0.431
 print("子女预测遗传身高为:%6.2f cm"%hk)
 #选择子女性别，男孩输入1 ，女孩输入0:1
