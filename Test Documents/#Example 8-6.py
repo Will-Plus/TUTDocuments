@@ -1,5 +1,5 @@
 #Example 8-6 遗传身高预测计算器
-sex=int(input("选择子女性别，男孩输入1 ，女孩输入0:"))
+sex=int(input("选择子女性别,男孩输入1 ,女孩输入0:"))
 hf=float(input("输入父亲身高:"))
 hm=float(input("输入母亲身高:"))
 if sex==1:
