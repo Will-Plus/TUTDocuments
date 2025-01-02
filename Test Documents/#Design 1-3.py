@@ -25,7 +25,7 @@ def lhopital_limit(f, g, x, c):
 x=sp.symbols('x')
 f_input=input("请输入 f(x) 的函数：")
 g_input=input("请输入 g(x) 的函数：")
-c=float(input("请输入计算极限的点 c；"))
+c=float(input("请输入计算极限的点 c:"))
 # 转换为符号表达式
 f=sp.sympify(f_input)
 g=sp.sympify(g_input)
